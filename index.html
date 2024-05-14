@@ -15,52 +15,60 @@
 
         <!-- ..............nav................... -->
 
-        <section class="w-full h-full h-28 lg:bg-white flex lg:flex-row flex-col lg:gap-20 gap-4 items-center py-3 px-36">
+        <section class=" w-full h-full relative ">
 
-            <h1 class="text-lg border-[3.3px] font-semibold border-zinc-800 px-10 py-1 tracking-[2px]">ARCHME</h1>
+            <nav class="w-full h-full h-28 flex lg:flex-row flex-col lg:gap-20 gap-4 items-center py-3 px-36 top-0 left-0 absolute z-10">
 
-            <div class="flex lg:gap-10 gap-5 text-zinc-800 text-md lg:text-sm">
+                <h1 class="text-lg border-[3.3px] font-semibold border-zinc-800 px-10 py-1 tracking-[2px]">ARCHME</h1>
+
+             <div class="flex lg:gap-10 gap-5 text-zinc-800 text-md lg:text-sm">
                 <h1>Home</h1>
                 <h1>Slider</h1>
                 <h1>Portfolio</h1>
                 <h1>Pages</h1>
                 <h1>Gallery</h1>
                 <h1>Blog</h1>
+             </div>
+
+            </nav>
+
+
+            <div class="swiper mySwiper ">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="https://max-themes.net/demos/archme/upload/alexandra-gorn-485551-unsplash.jpg" alt="">
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <img src="https://max-themes.net/demos/archme/upload/TaziRanch1016_2355_slider.jpg" alt="">
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <img  src="https://max-themes.net/demos/archme/upload/sandro-katalina-219649-unsplash.jpg" alt="">
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
             </div>
 
+            
         </section>
 
-        <!-- ................carasol..................... -->
+        <!-- ................carazol..................... -->
 
-        <div class="swiper mySwiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                <img src="https://max-themes.net/demos/archme/upload/alexandra-gorn-485551-unsplash.jpg" alt="">
-              </div>
-
-              <div class="swiper-slide">
-                <img src="https://max-themes.net/demos/archme/upload/TaziRanch1016_2355_slider.jpg" alt="">
-              </div>
-
-              <div class="swiper-slide">
-                <img  src="https://max-themes.net/demos/archme/upload/sandro-katalina-219649-unsplash.jpg" alt="">
-              </div>
-
-              
-              
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-          
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-          </div>
+        
 
         <!-- .......................About us.............. -->
 
